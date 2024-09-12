@@ -1,0 +1,56 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.counter {
+  font-size: 3.5em;
+  line-height: 1.1;
+}
+
+.button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+button {
+  border-radius: 8px;
+  border: 2px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  color: rgba(255, 255, 255, 0.87);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.increment {
+  background-color: #646cff;
+}
+.increment:hover {
+  border-color: #646cff;
+  color: #646cff;
+  background-color: transparent;
+}
+.increment:focus,
+.increment:focus-visible {
+  outline: 4px auto #646cff;
+}
+
+.decrement {
+  background-color: #ff7f50;
+}
+.decrement:hover {
+  border-color: #ff7f50;
+  color: #ff7f50;
+  background-color: transparent;
+}
+.decrement:focus,
+.decrement:focus-visible {
+  outline: 4px auto #ff7f50;
+}
